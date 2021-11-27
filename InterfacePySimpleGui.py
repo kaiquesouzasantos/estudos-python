@@ -42,7 +42,7 @@ class TelaPython():
             yahoo = self.values['Yahoo']
             cartaoSim = self.values['cartaoSim']
             cartaoNao = self.values['cartaoNao']
-            velodidadeScript = self.values['sliderVelocidade']
+            velocidadeScript = self.values['sliderVelocidade']
 
             # output na interface
             print(f'Nome: {nome}')
@@ -52,7 +52,7 @@ class TelaPython():
             print(f'Aceita Yahoo: {yahoo}')
             print(f'Aceita Cartao {cartaoSim}')
             print(f'Nao Aceita Cartao {cartaoNao}')
-            print(f'Velocidade do Script {velodidadeScript}')
+            print(f'Velocidade do Script {velocidadeScript}')
 
 tela = TelaPython()
 tela.Iniciar()
