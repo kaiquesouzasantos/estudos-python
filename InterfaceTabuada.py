@@ -13,7 +13,7 @@ class TelaPython():
             [sg.Text('Numero',size=(6,0)),sg.Input(size=(20,0),key='Numero')],
             [sg.Text('Limite',size=(6,0)),sg.Input(size=(20,0),key='Limite')],
 
-            [sg.Button('Enviar Dados')],
+            [sg.Button('Calcular')],
 
             [sg.Output(size=(40,12))]
         ]
