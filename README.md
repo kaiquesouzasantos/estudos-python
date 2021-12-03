@@ -1,2 +1,2 @@
 # PYTHON-APERFEIÇOAMENTO
-Diretório contendo códigos específicos em Python com o intuito de aperfeiçoamento e consolidação de conhecimento.
+Diretório contendo exercicios de Python com o intuito de aperfeiçoamento e consolidação de conhecimento.
