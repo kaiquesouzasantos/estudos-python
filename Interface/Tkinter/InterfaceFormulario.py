@@ -1,5 +1,4 @@
 from tkinter import *
-from typing import Collection
 
 janela = Tk()
 janela.title('Formulário')
