@@ -1,4 +1,3 @@
-from tkinter import Event
 import PySimpleGUI as sg
 
 def criar_janela():
