@@ -91,7 +91,7 @@ try:
         print('[red]OPÇÃO INVALIDA, PROCESSO INTERROMPIDO![/]')
     # ==================== CONCLUSÃO DA CONEXÃO ====================
     conn.commit()
-    conn.close()
+
 except:
     print('[red]FALHA NA EXECUÇÃO DO PROGRAMA, PROCESSO INTERROMPIDO![/]')
-    conn.close()
+conn.close()
