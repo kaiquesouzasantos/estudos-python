@@ -26,13 +26,13 @@ l1 = input()
 figura = l1[0]
 naipeD = l1[1]
 
-l2 = list(input()+" ")
-l3 = list(input()+" ")
-l4 = list(input()+" ")
+l2 = input()
+l3 = input()
+l4 = input()
 
-l5 = list(input()+" ")
-l6 = list(input()+" ")
-l7 = list(input()+" ")
+l5 = input()
+l6 = input()
+l7 = input()
 
 if(soma(l2[0], l2[1], l3[0], l3[1], l4[0], l4[1]) > soma(l5[0], l5[1], l6[0], l6[1], l7[0], l7[1])):
     print("Luana")
@@ -40,7 +40,3 @@ elif(soma(l2[0], l2[1], l3[0], l3[1], l4[0], l4[1]) < soma(l5[0], l5[1], l6[0], 
     print("Edu")
 else:
     print("empate")
-
-
-
-
