@@ -1,13 +1,15 @@
 def converteR(num) -> int:
-    nums = {'M':1000,'D':500,'C':100,'L':50,'X':10,'V':5,'I':1}
+    nums = {'M': 1000, 'D': 500, 'C': 100, 'L': 50, 'X': 10, 'V': 5, 'I': 1}
     sum = 0
 
     for i in range(len(num)):
         valor = nums[num[i]]
-        if i+1 < len(num) and nums[num[i+1]] > valor:
+        if i + 1 < len(num) and nums[num[i + 1]] > valor:
             sum -= valor
-        else: sum += valor
+        else:
+            sum += valor
     return sum
+
 
 def converteA(num) -> str:
     ints = (1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1)
@@ -20,9 +22,9 @@ def converteA(num) -> str:
         num -= ints[i] * count
     return ''.join(result)
 
+
 while True:
     lin = list(map(converteR, input().split("+")))
-
     if lin[0] == '0': break
 
     print(converteA(sum(lin)))
