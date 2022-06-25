@@ -5,6 +5,7 @@ def converteR(num) -> int:
     for i in range(len(num)):
         valor = nums[num[i]]
         if i + 1 < len(num) and nums[num[i + 1]] > valor:
+            # numero com precedente(IV), subtrai-se o precedente e o numero debita o valor desconto
             sum -= valor
         else:
             sum += valor
