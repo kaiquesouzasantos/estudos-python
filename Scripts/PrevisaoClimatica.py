@@ -3,8 +3,7 @@
 import requests as rq
 from bs4 import BeautifulSoup as bp
 
-html = rq.get("https://www.climatempo.com.br/previsao-do-tempo/cidade/558/saopaulo-sp")
-html = html.content
+html = rq.get("https://www.climatempo.com.br/previsao-do-tempo/cidade/558/saopaulo-sp").content
 soup = bp(html, "html.parser")
 
 resume = soup.find(class_='-gray _flex _align-center')
