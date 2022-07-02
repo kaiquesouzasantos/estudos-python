@@ -1,9 +1,6 @@
 # 100/100
 
-d = int(input())
-a = int(input())
-n = int(input())
-
+d, a, n = int(input()), int(input()), int(input())
 valor = 0
 intervalo = 32 - n
 
