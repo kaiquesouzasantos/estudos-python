@@ -1,7 +1,6 @@
 # 100/100
 
-n = int(input())
-m = int(input())
+n, m = int(input()), int(input()) 
 figurinhas = []
 
 for i in range(m):
@@ -10,7 +9,5 @@ for i in range(m):
 total = len(list(set(figurinhas)))
 resposta = n - total
 
-if(resposta > 0):
-    print(resposta) 
-else:
-    print(0)
+if(resposta > 0): print(resposta) 
+else: print(0)
