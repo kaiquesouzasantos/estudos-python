@@ -1,5 +1,6 @@
 # 100/100
 
+# ordena os nadadores
 seq = {'1':0,'2':0,'3':0}
 
 for i in range(3):
