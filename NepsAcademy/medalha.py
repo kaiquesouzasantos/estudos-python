@@ -8,4 +8,5 @@ for i in range(3):
 # ordena as keys do dicionario de acordo com os valores
 seq = sorted(seq, key=seq.get)
 
+# out de acordo com o podio, 1°, 2° e 3° colocado.
 for i in seq: print(i)
