@@ -1,5 +1,4 @@
-con = int(input())
-nomes = []
+con, nomes = int(input()), []
 
 for i in range(con):
 	nomes.append(input())
@@ -7,7 +6,5 @@ for i in range(con):
 nomes.sort()
 
 for i, nome in enumerate(nomes):
-	if i != len(nomes) - 1:
-		print(f"Bem-vindo(a), {nome}!!!", end="")
-	else:
-		print(f"Bem-vindo(a), {nome}!!!", end="")
+	if i != len(nomes) - 1: print(f"Bem-vindo(a), {nome}!!!", end="")
+	else: print(f"Bem-vindo(a), {nome}!!!", end="")
