@@ -1,5 +1,4 @@
-con = int(input())
-result = []
+con, result = int(input()), []
 
 for i in range(con):
     expressao = input()
@@ -14,7 +13,5 @@ for i in range(con):
     else: result.append("NOK")
 
 for i,valor in enumerate(result):
-    if i != len(result) - 1:
-        print(valor)
-    else:
-        print(valor, end="")
+    if i != len(result) - 1: print(valor)
+    else: print(valor, end="")
