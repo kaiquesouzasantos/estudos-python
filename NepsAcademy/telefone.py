@@ -1,7 +1,8 @@
 # 100/100
 
 def verifica(exp) -> str:
-    if exp in "-*#10": return exp
+    if exp in "-*#": return exp
+    elif exp in "0123456789": return exp
     elif exp in "ABC": return "2"
     elif exp in "DEF": return "3"
     elif exp in "GHI": return "4"
