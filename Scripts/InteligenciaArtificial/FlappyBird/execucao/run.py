@@ -84,6 +84,3 @@ def main():
                 passaros.pop(i)
 
         desenhar_tela(tela, passaros, canos, chao, pontos)
-
-if __name__ == '__main__':
-    main()

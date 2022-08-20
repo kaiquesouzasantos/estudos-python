@@ -9,7 +9,7 @@ class Botao():
 		self.rect.topleft = (x, y)
 		self.clicked = False
 
-	def click(self, surface):
+	def clique(self, surface):
 		acao = False
 		pos = pygame.mouse.get_pos()
 
