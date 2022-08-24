@@ -1,10 +1,17 @@
-# 100/100
+n = int(input())
+lista = []
+total = 0
 
-N = int(input())
-chocolates = list()
+for i in range(n):
+    lista.append(int(input()))
 
-for i in range(N):
-    chocolates.append(int(input()))
-chocolates.sort()
+# maisCaro <para> maisBarato | sort(reverse=True)
+lista.sort()
+lista.reverse()
 
-print(sum(chocolates[N//3:]))
+for i in range(len(lista)):
+    if i % 3 == 2:
+        continue # passa para o proximo elemento da lista
+    total += lista[i]
+
+print(total)
