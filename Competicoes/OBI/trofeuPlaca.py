@@ -1,3 +1,5 @@
+# 100/100
+
 pontos, encerra = list(), False
 
 for i in range(5):
