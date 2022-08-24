@@ -1,7 +1,4 @@
-trofeu, placa = 0, 0
-maior, menor = 0, 0
-pontos, mPontos = list(), list()
-encerra = False
+pontos, encerra = list(), False
 
 for i in range(5):
     ponto = int(input())
@@ -17,21 +14,13 @@ if encerra:
     print(0,0)
     exit()
 
-maior = max(pontos)
+maior = pontos[0]
+trofeu = pontos.count(maior)
 
-for i in pontos:
-    if i == maior:
-        trofeu += 1
+mPontos = [i for i in pontos if i != maior]
 
-for i in pontos:
-    if i != maior:
-        mPontos.append(i)
-
-for i in mPontos:
-    if i == mPontos[0]:
-        menor = i
-
-    if i == menor:
-        placa += 1
+if len(mPontos) > 0:
+    placa = mPontos.count(mPontos[0])
+else: placa = 0
 
 print(f'{trofeu} {placa}')
