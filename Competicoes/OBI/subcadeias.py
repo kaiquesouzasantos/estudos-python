@@ -1,3 +1,5 @@
+# 100/100
+
 def verifica(str):
     maior = 1
 
