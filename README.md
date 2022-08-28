@@ -7,29 +7,8 @@
 
 #
 
-### TECNOLOGIAS
+### TECNOLOGIA
 - [Python](https://www.python.org)
-- [Image]()
-- [pyttsx3]()
-- [cv2]()
-- [moviepy]()
-- [barcode]()
-- [numpy]()
-- [matplotlib]()
-- [pyqrcode]()
-- [pytube]()
-- [calendar]()
-- [smtplib]()
-- [translate]()
-- [requests]()
-- [bs4]()
-- [rich]()
-- [mysql]()
-- [pyaudio]()
-- [playsound]()
-- [pywhatkit]()
-- [pySimpleGUI]()
-- [tkinter]()
 
 #
 ### CONTRIBUIÇÃO
