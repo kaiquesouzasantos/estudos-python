@@ -1,12 +1,10 @@
-<h1 align=center>PYTHON-APERFEIÇOAMENTO</h1>
+<h1 align=center>PYTHON-SCRIPTS</h1>
 
 ### SOBRE
 
-- Diretório contendo exercicios em Python com o intuito de aperfeiçoamento e consolidação de conhecimento.
-- Possui soluções para problemas propostos em maratonas e campeonatos de programação.
+- Diretório contendo scripts específicos em Python com o intuito de aprimorar o uso de bibliotecas.
 
 #
-
 ### TECNOLOGIAS
 - [Python](https://www.python.org)
 - [Image]()
@@ -35,5 +33,6 @@
 ### CONTRIBUIÇÃO
 
 ```
-$ git clone https://github.com/kaiquesouzasantos/python-aperfeicoamento.git 
+$ git clone https://github.com/kaiquesouzasantos/python-aperfeicoamento/tree/main/Scripts.git 
 ```
+
