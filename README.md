@@ -3,7 +3,7 @@
 ### SOBRE
 
 - Diretório contendo exercicios em Python com o intuito de aperfeiçoamento e consolidação de conhecimento.
-- Possui soluções para problemas propostos em maratonas e campeonatos.
+- Possui soluções para problemas propostos em maratonas e campeonatos de programação.
 
 #
 
