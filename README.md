@@ -2,11 +2,10 @@
 
 ### SOBRE
 
-- Diretório contendo exercicios em Python com o intuito de aperfeiçoamento e consolidação de conhecimento.
+- Diretório contendo exercicios em Python com o intuito de aperfeiçoamento e consolidação de conhecimento, em diversos aspectos da linguagem.
 - Possui soluções para problemas propostos em maratonas e campeonatos de programação.
 
 #
-
 ### TECNOLOGIA
 - [Python](https://www.python.org)
 
