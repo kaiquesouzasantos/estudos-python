@@ -1,5 +1,10 @@
 <h1 align=center>PYTHON-APERFEIÇOAMENTO</h1>
 
+<p align="center">
+  <img src="python.png" width="500">
+</p>
+
+#
 ### SOBRE
 
 - Diretório contendo exercicios em Python com o intuito de aperfeiçoamento e consolidação de conhecimento, em diversos aspectos da linguagem.
