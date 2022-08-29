@@ -1,7 +1,7 @@
 <h1 align=center>PYTHON-APERFEIÇOAMENTO</h1>
 
 <p align="center">
-  <img src="python.png" width="500">
+  <img src="python.svg" width="500">
 </p>
 
 #
