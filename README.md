@@ -18,5 +18,5 @@
 ### CONTRIBUIÇÃO
 
 ```
-$ git clone https://github.com/kaiquesouzasantos/python-aperfeicoamento.git 
+$ git clone https://github.com/kaiquesouzasantos/estudos-python.git 
 ```
