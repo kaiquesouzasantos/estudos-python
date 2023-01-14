@@ -1,4 +1,4 @@
-<h1 align=center>PYTHON-APERFEIÇOAMENTO</h1>
+<h1 align=center>ESTUDOS-PYTHON</h1>
 
 <p align="center">
   <img src="python.svg" width="500">
