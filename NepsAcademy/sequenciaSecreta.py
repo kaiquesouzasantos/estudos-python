@@ -1,14 +1,13 @@
 # 100/100
 
-n = int(input())
-saida, ultimo = 0, 0
+quantidade, sequencia, resultante, ultimo = int(input()), list(), list(), ''
 
-for i in range(n):
-    novo = int(input())
+for i in range(quantidade):
+    sequencia.append(int(input()))
 
-    # se o novoValor != ultimoAdicionado, contabiliza á saida
-    if novo != ultimo:
-        saida += 1
-        ultimo = novo
+for i in range(len(sequencia)):
+    if(sequencia[i] != ultimo):
+        ultimo = sequencia[i]
+        resultante.append(sequencia[i])
 
-print(saida)
+print(len(resultante))
