@@ -5,7 +5,7 @@ def somac(figura, naipe):
     np = naipeD
 
     if(np == naipe):
-        figuras = {'A':14,'J':15,'Q':16,'K':17}
+        figuras = {'A': 14,'J': 15,'Q': 16,'K': 17}
         return figuras[figura]
     else:
         figuras = {'A': 10, 'J': 11, 'Q': 12, 'K': 13}
