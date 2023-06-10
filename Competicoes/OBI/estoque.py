@@ -1,11 +1,10 @@
 linhas, colunas = map(int, input().split())
-tabela = list()
+tabela, vendasEfetivadas = list(), 0
 
 for i in range(linhas):
     tabela.append(list(map(int, input().split())))
 
 vendas = int(input())
-vendasEfetivadas = 0
 
 for i in range(vendas):
     linha, coluna = map(int, input().split())
