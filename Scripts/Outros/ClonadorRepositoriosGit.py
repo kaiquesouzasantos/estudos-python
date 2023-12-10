@@ -37,10 +37,8 @@ class Git:
     def executa_comando(self, comando):
         return subprocess.run(comando, capture_output = True, text = True, check = True).stdout.strip()
     
-        
     def log(self, mensagem, tipo = "green"):
         Console().log(mensagem, style = f"bold black on {tipo}")
-
 
 if __name__ == "__main__":
     Git(usuario, senha).clona_repositorios(repositorios)
