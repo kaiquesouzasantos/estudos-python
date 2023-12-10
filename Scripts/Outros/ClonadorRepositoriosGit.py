@@ -17,20 +17,26 @@ class Git:
 
     def clona_repositorios(self, repositorios):
         for repositorio in repositorios:
+           self.clona_repositorio(repositorio)
+        self.log(f"INFO: CLONAGEM DA LISTA DE REPOSITORIOS CONCLUIDA", "blue")
+
+    def clona_repositorio(self, repositorio):
+        try:
             self.executa_comando(f'git clone {repositorio}')
             self.log(f"INFO: INSTALADO | {repositorio}")
-        self.log(f"INFO: LISTA DE REPOSITORIOS CONCLUIDA", "yellow")
+        except subprocess.CalledProcessError as e:
+            self.log("ERROR: FALHA NA CLONAGEM DO REPOSITORIO", "red")
 
     def login(self):
-        self.executa_comando(f'git config --global credential.helper store && echo -e "https://{self.usuario}:{self.senha}@github.com" > ~/.git-credentials')
-        self.log(f"INFO: USUARIO {self.usuario} AUTENTICADO", "yellow")
+        try:
+            self.executa_comando(f'git config --global credential.helper store && echo -e "https://{self.usuario}:{self.senha}@github.com" > ~/.git-credentials')
+            self.log(f"INFO: USUARIO {self.usuario} AUTENTICADO", "purple")
+        except subprocess.CalledProcessError as e:
+            self.log("ERROR: FALHA NA AUTENTICACAO DO USUARIO", "red")
 
     def executa_comando(self, comando):
-        try:
-            return subprocess.run(comando, capture_output = True, text = True, check = True).stdout.strip() 
-        except subprocess.CalledProcessError as e:
-            self.log("ERROR: FALHA NA EXECUCAO DO COMANDO", "red")
-            return e.stderr.strip()
+        return subprocess.run(comando, capture_output = True, text = True, check = True).stdout.strip()
+    
         
     def log(self, mensagem, tipo = "green"):
         Console().log(mensagem, style = f"bold black on {tipo}")
