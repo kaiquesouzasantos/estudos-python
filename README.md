@@ -5,16 +5,16 @@
 </p>
 
 #
-### SOBRE
+### 📚 SOBRE
 
 - Diretório contendo exercicios em Python com o intuito de aperfeiçoamento e consolidação de conhecimento, em diversos aspectos da linguagem.
 
 #
-### TECNOLOGIA
+### 💻 TECNOLOGIA
 ![Python](https://img.shields.io/badge/-python-0D1117?style=for-the-badge&logo=python&logoColor=1572B6&labelColor=0D1117)&nbsp;
 
 #
-### CONTRIBUIÇÃO
+### 🔗 CONTRIBUIÇÃO
 
 ```
 $ git clone https://github.com/kaiquesouzasantos/estudos-python.git 
